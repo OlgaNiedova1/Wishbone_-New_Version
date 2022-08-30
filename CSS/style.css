@@ -1,0 +1,195 @@
+{
+    padding: 0;
+    margin: 0;
+}
+header{
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+.main_banner{
+    background-color: #ECE7E4;
+    height: 100vh;
+    position: relative;
+    max-width: 1440px;
+    margin: auto;
+}
+.main_banner article{
+    max-width: 720px;
+}
+header nav ul li{
+    transition: 0.4s;
+    margin: 0 32px;
+}
+header nav ul li:hover{
+    transform: rotate(360deg);
+}
+header nav ul li:last-of-type a{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    background: #1B1A1A;
+    border-radius: 14px;
+    text-align: center;
+    padding: 11px 20px;
+}
+li{
+    list-style-type: none;
+}
+header nav ul li a{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #1B1A1A;"
+}
+
+.our_firm {padding-top: 96px; padding-bottom: 128px;
+}
+.our_firm h3{
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #403E3B; width: 134px; height: 38px; padding-right: 133px;
+}
+.our_firm p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #403E3B;
+    padding-bottom: 10px;
+}
+.our_firm p:last-of-type{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #403E3B;
+    padding-bottom: 18px;
+}
+.our_process{
+    padding-bottom: 110px; padding-top: 100px;
+}
+.our_process h2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 42px;
+    text-align: center;
+    color: #1B1A1A;
+}
+.our_process p:first-of-type{
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #645C55;padding-bottom: 13px;
+}
+.our_process_named{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #403E3B; padding-bottom: 10px;
+}
+.our_process_text{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #645C55;
+}
+.prior_clients{
+    background-color: #403E3B;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.prior_clients_box{
+    max-width: 1168px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.prior_clients_logo{
+    display: flex;
+    flex-wrap: wrap;
+}
+.prior_clients h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ECE7E4;
+}
+.prior_clients h2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    padding-bottom: 14px;
+}
+.prior_clients p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    width: 451px;
+    color: #ECE7E4;
+}
+.prior_clients_logo{
+    display: flex;
+    flex-wrap: wrap;
+}
+.prior_clients_logo a{
+    width: 50%;
+    text-align: center;
+}
+.prior_clients_logo a:nth-child(2){
+    margin-bottom: 96px;
+}
+.prior_clients_logo a:nth-child(1){
+    margin-top: 20px;
+}
+.prior_clients_logo a:nth-child(3){
+    margin-top: 10px;
+}
