@@ -193,3 +193,79 @@ header nav ul li a{
 .prior_clients_logo a:nth-child(3){
     margin-top: 10px;
 }
+.featured_projects{
+    background-color:#F7F7F7;
+    padding-top: 113px;
+    padding-bottom: 111px;
+}
+.featured_projects h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 42px;
+    color: #1B1A1A;
+}
+.featured_projects p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #645C55;
+    margin-bottom: 44px;
+}
+.featured_projects .item{
+    max-width: 375px;
+    position: relative;
+}
+.featured_projects .item img{
+    display: block;
+    width: 100%;
+}
+.featured_projects .item .description{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-content: space-between;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+.featured_projects .description h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    color: #403E3B;
+    width: 100%;
+}
+.featured_projects .description h4 span{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #645C55;
+    display: block;
+}
+.featured_projects .description a{
+    display: inline-block;
+    background: #1B1A1A;
+    border-radius: 14px;
+    padding: 11px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+
+}
