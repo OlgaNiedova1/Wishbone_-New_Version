@@ -198,7 +198,7 @@ header nav ul li a{
     padding-top: 113px;
     padding-bottom: 111px;
 }
-.featured_projects h3{
+.featured_projects h2{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -218,6 +218,10 @@ header nav ul li a{
 .featured_projects .item{
     max-width: 375px;
     position: relative;
+    overflow: hidden;
+}
+.featured_projects .item:hover .description{
+    bottom: 0;
 }
 .featured_projects .item img{
     display: block;
@@ -232,6 +236,8 @@ header nav ul li a{
     box-sizing: border-box;
     flex-wrap: wrap;
     padding: 40px;
+    bottom: -100%;
+    transition: 0.4s;
 }
 .featured_projects .description h4{
     font-family: 'Poppins', sans-serif;
@@ -266,6 +272,25 @@ header nav ul li a{
     letter-spacing: 0.4px;
     color: #FFFFFF;
     text-decoration: none;
-
-
+}
+.ui-accordion .ui-accordion-header{
+    border: none;
+    background: none;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #1B1A1A;
+    padding-top: 53px;
+}
+.ui-icon{
+    display: none;
+}
+.ui-accordion .ui-accordion-content{
+    background: none;
+    border: none;
+    padding: 0;
 }
